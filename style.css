@@ -7,8 +7,7 @@
 }
 
 nav {
-    height: 80px;  
-    background-color: beige;  
+    height: 80px;   
     display: flex;
     justify-content: space-between;
     align-items: top;
@@ -33,10 +32,6 @@ nav a:hover {
     color: blueviolet;
 }
 
-.hero {
-    background: beige;
-}
-
 .hero-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -46,16 +41,18 @@ nav a:hover {
 
 .column-left {
     display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
+    flex-direction:column;
+    justify-content: center;
     align-items: flex-start;
     color: black;
     padding: 0rem 2rem;
+
 }
 
 .column-left h1 {
     margin-bottom: 1rem;
     font-size: 2rem;
+    font-style: italic;
 }
 
 .column-left p {
@@ -89,7 +86,6 @@ button:hover {
     border-radius: 50px;
     max-width: 100%;
     max-height: 100%;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -98,3 +94,52 @@ button:hover {
     }
 }
 
+.about-container p {
+    margin-bottom: 2rem;
+    font-size: 1.0rem;
+    line-height: 1.5;
+    font-style: italic;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.about-container h2 {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.location-container p {
+    margin-bottom: 2rem;
+    font-size: 1.0rem;
+    line-height: 1.5;
+    font-style: italic;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.location-container h2 {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.contact-container p {
+    margin-bottom: 2rem;
+    font-size: 1.0rem;
+    line-height: 1.5;
+    font-style: italic;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.contact-container h2 {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
